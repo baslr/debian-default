@@ -1,1 +1,1 @@
-aptitude install -y iotop
+deb iotop
