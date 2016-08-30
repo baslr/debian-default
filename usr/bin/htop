@@ -1,1 +1,1 @@
-aptitude install -y htop
+deb htop
