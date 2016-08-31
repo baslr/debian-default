@@ -1,1 +1,10 @@
+req git
 
+git clone https://github.com/nodejs/node
+cd node
+
+git checkout v6.5.0
+
+./configure --without-npm
+make -j 4
+cp out/Release/node /usr/local/bin/node
