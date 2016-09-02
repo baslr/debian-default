@@ -1,0 +1,13 @@
+auto lo
+iface lo inet loopback
+
+auto br0
+iface br0 inet static
+	address {}
+	netmask {}
+	network {}
+	gateway	{}
+	broadcast {}
+	bridge_ports eth{}
+	bridge_stp off
+	bridge_fd 0
