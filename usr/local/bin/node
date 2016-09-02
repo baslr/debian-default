@@ -1,5 +1,6 @@
 req git
 
+bash
 git clone https://github.com/nodejs/node
 cd node
 
