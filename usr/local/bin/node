@@ -3,8 +3,8 @@ req git
 bash
 git clone https://github.com/nodejs/node
 cd node
-
-git checkout v6.5.0
+version=$(git tag |grep -E '^v\d+\.\d+\.\d+$'|tail -n 1)
+git checkout $version
 
 ./configure --without-npm
 make -j 4
