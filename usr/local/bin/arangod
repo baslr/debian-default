@@ -1,1 +1,11 @@
 req zlib1g-dev cmake make
+
+mkdir build
+cd build
+git clone https://github.com/arangodb/arangodb
+mkdir build
+cd build
+cmake ..
+make
+cd ..
+cd ..
