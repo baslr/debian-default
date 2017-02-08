@@ -1,1 +1,1 @@
-deps zlib1g-dev cmake make
+req zlib1g-dev cmake make
