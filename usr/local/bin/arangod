@@ -1,4 +1,4 @@
-req zlib1g-dev cmake make
+req cmake make libssl1.0-dev zlib1g-dev
 
 mkdir build
 cd build
