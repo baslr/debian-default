@@ -12,5 +12,12 @@ the host to which the connection is established
 -R RemoteHostIP:RemoteHostPort:LocalHostIP:LocalHostPort
 
 pipes a listening connection on the local host to the remote host.
-If you telnet the on the remote host `telnet RemoteHostIP RemoteHostPort`
+If you telnet on the remote host `telnet RemoteHostIP RemoteHostPort`
 the connection is forwared to LocalHostIP LocalHostPort.
+
+
+-L LocalHostIP:LocalHostPort:RemoteHostIP:RemoteHostPort
+
+pulls a listening connection on the RemoteHostIP to the local host.
+If you telnet on the local host `telnet LocalHostIP LocalHostPort`
+the connection is forwared to RemoteHostIP RemoteHostPort.
