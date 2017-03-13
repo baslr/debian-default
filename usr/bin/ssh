@@ -1,1 +1,16 @@
 deb openssh-client
+
+
+# doku
+
+local host:
+the host where ssh is executed
+
+remote host:
+the host to which the connection is established
+
+-R RemoteHostIP:RemoteHostPort:LocalHostIP:LocalHostPort
+
+pipes a listening connection on the local host to the remote host.
+If you telnet the on the remote host `telnet RemoteHostIP RemoteHostPort`
+the connection is forwared to LocalHostIP LocalHostPort.
